@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Прототип</title>
+    <meta charset="UTF-8">
+    <style>
+      body {
+        background-color: gray;
+        color: gray;
+      }
+
+      buttonGreen {
+        background-color: green;
+        color: white;
+        margin: 40px;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 100px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    
+      }
+       buttonYellow {
+        background-color: yellow;
+        color: black;
+        margin: 40px;
+        padding: 10px;
+        border: none;
+        border-radius: 100px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+       buttonRed {
+        background-color: red;
+        color: white;
+        margin: 40px;
+        padding: 10px;
+        border: none;
+        border-radius: 100px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+        
+    </style>
+  </head>
+  <body>
+    <p>
+       <buttonGreen onclick="window.open('https://chat.openai.com/', '_blank')">ChatGPT</buttonGreen>
+       <buttonGreen onclick="window.open('https://stockimg.ai ', '_blank')">StockimgAI </buttonGreen>
+       <buttonGreen onclick="window.open('https://huggingface.co/docs/transformers/model_doc/t5', '_blank')">T5 Model</buttonGreen>
+   </p>
+    
+    <p>
+      <buttonGreen onclick="window.open('https://lens.google/intl/ru/', '_blank')">Google Lens</buttonGreen>
+      <buttonGreen onclick="window.open('https://namelix.com/', '_blank')">Bigjpg</buttonGreen>
+      <buttonGreen onclick="window.open('https://www.shazam.com/ru', '_blank')">Shazam</buttonGreen>
+   </p> 
+    
+    <p>
+      <buttonGreen onclick="window.open('https://www.notion.so/product/ai', '_blank')">Notion AI</buttonGreen>
+      <buttonGreen onclick="window.open('https://namelix.com/', '_blank')">Namelix</buttonGreen>
+    </p>
+        
+    <p>
+      <buttonGreen onclick="window.open('https://huggingface.co/docs/transformers/model_doc/roberta', '_blank')">Roberta Model</buttonGreen>
+      <buttonGreen onclick="window.open('https://www.autodraw.com/', '_blank')">Google AutoDraw</buttonGreen>
+    </p>
+        
+    <p>
+       <buttonGreen  onclick="window.open(' https://vocalremover.org/', '_blank')">Vocalremover</buttonGreen>
+       <buttonYellow onclick="window.open('https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F', '_blank')">Midjourney</buttonYellow>
+       <buttonYellow  onclick="window.open('https://www.remove.bg/ru', '_blank')">RemoveBG</buttonYellow>
+   </p>
+    
+   <p>
+      <buttonYellow onclick="window.open('https://soundraw.io/', '_blank')">Soundraw</buttonYellow>
+      <buttonRed onclick="window.open('https://looka.com/', '_blank')">Looka</buttonRed>
+      <buttonRed onclick="window.open('https://www.quickchat.ai/pricing', '_blank')">QuickChat</buttonRed>
+   </p>
+  </body>
